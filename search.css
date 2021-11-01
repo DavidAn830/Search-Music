@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    
+    overflow: hidden;
+} */
+
+.header{
+    background-color: cadetblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form{
+    border-radius: 25px;
+    background-color: white;
+    height: 30px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    outline: none;
+    border: none;
+    padding: auto;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.search__btn{
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.searched-artist{
+    font-size: 25px;
+}
+
+ul{
+    height: 750px;
+    text-align: left;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    margin: 10px 20px;
+    float: left;
+    border: 1px solid cadetblue;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+
+.image{
+    width: 140px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.album-name{
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
